@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 
-function BookCreate({createBook}){
+function BookCreate({onCreate}){
     const [title,setTitle] = useState("");
     function handleChange(e){
         const val = e.target.value;
@@ -8,7 +8,7 @@ function BookCreate({createBook}){
     }
     function handleSubmit(e){
         e.preventDefault();
-        createBook(title);
+        onCreate(title);
         setTitle("");
     }
     return <div className="book-create">
