@@ -1,8 +1,8 @@
 <h1>Favorite Books Storing App</h1>
 
-<h3><b>V1.0 -</b> Create, Update, Delete Books. Data is non-persistent.</h3>
+<h4><b>V1.0 -</b> Create, Update, Delete Books. Data is non-persistent.</h4>
 
-<h3><b>V2.0 -</b> Fetch, Create, Update, Delete Books using an external API. Data is persitant.</h3>
+<h4><b>V2.0 -</b> Fetch, Create, Update, Delete Books using an external API. Data is persistent.</h4>
 
 
 <h2>How to run the applicaiton?</h2>
