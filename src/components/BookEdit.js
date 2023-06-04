@@ -11,7 +11,6 @@ function BookEdit({book,onSubmit}){
         e.preventDefault();
 
         console.log(title);
-        // onEdit(book.id, title);
         onSubmit(book.id,title);
     }
 
