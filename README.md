@@ -4,7 +4,7 @@
 
 <p><b>V2.0 -</b> Fetch, Create, Update, Delete Books using an external API. Data is persistent.</p>
 
-<p><b>V3.0 -</b> Fetch, Create, Update, Delete Books using an external API, Data is persistent. Code refactored Added "Context" and a very simple "custom-hook"</p>
+<p><b>V2.1 -</b> Fetch, Create, Update, Delete Books using an external API, Data is persistent. Code refactored Added "Context" and a very simple "custom-hook"</p>
 
 <h2>How to run the applicaiton?</h2>
 
