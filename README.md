@@ -1,9 +1,10 @@
 <h1>Favorite Books Storing App</h1>
 
-<h4><b>V1.0 -</b> Create, Update, Delete Books. Data is non-persistent.</h4>
+<p><b>V1.0 -</b> Create, Update, Delete Books. Data is non-persistent.</p>
 
-<h4><b>V2.0 -</b> Fetch, Create, Update, Delete Books using an external API. Data is persistent.</h4>
+<p><b>V2.0 -</b> Fetch, Create, Update, Delete Books using an external API. Data is persistent.</p>
 
+<p><b>V3.0 -</b> Fetch, Create, Update, Delete Books using an external API, Data is persistent. Code refactored Added "Context" and a very simple "custom-hook"</p>
 
 <h2>How to run the applicaiton?</h2>
 
