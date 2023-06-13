@@ -1,4 +1,4 @@
-import {createContext, useState} from 'react';  
+import {createContext, useState, useCallback} from 'react';  
 import axios from 'axios';
 
 
@@ -12,14 +12,16 @@ const Provider = ({children})=>{
     const [books,setBooks] = useState([]);
 
 
-
-    async function fetchBooks(){
+    //we've used useCallback() to store the fetchBooks function's original reference.
+    //so that it don't have to be created newly (new ref in memory) every time the component is re-rendered.
+    const fetchBooks =  useCallback(async ()=>{
         const response = await axios.get("http://localhost:3001/books");
         console.log(response.data);
         setBooks(()=>{
             return response.data;
-        })
-    }
+        });
+    },[]);      //by passing a [] empty array which is mandatory, we made fetchBooks to use previous/original 
+                //ref rather than creating new ref every time. Ref- section 9 
 
 
 

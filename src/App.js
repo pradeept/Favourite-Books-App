@@ -8,9 +8,12 @@ function App(){
     const {fetchBooks} = useBooksContext();
 
     //To run fetchBooks() on initial render
+    //To remove ESLint warning & appearently a bug of useEffect()
+    //we passed fetchBooks into array which resulted in continuous calls to api..
+    //to adress this issue we used useCallback in context provider. 
     useEffect(()=>{
         fetchBooks();
-    },[]);
+    },[fetchBooks]);
 
 
 
